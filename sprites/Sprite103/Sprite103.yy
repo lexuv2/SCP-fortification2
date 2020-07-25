@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 9,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 9,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 10,
-  "height": 10,
+  "width": 64,
+  "height": 64,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ee6535eb-f80b-4ac5-aee6-1c503dd846b3","path":"sprites/spr_hand/spr_hand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ee6535eb-f80b-4ac5-aee6-1c503dd846b3","path":"sprites/spr_hand/spr_hand.yy",},"LayerId":{"name":"9d1e94b5-bab0-42b9-bb3e-06d71c38b800","path":"sprites/spr_hand/spr_hand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},"resourceVersion":"1.0","name":"ee6535eb-f80b-4ac5-aee6-1c503dd846b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6bc79859-7434-4d29-b459-b1b2729c76a8","path":"sprites/Sprite103/Sprite103.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6bc79859-7434-4d29-b459-b1b2729c76a8","path":"sprites/Sprite103/Sprite103.yy",},"LayerId":{"name":"ab2363e9-a894-4d9b-9ddf-c937f6c2d8d6","path":"sprites/Sprite103/Sprite103.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite103","path":"sprites/Sprite103/Sprite103.yy",},"resourceVersion":"1.0","name":"6bc79859-7434-4d29-b459-b1b2729c76a8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},
+    "spriteId": {"name":"Sprite103","path":"sprites/Sprite103/Sprite103.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"79adbe42-27b0-49ad-8bad-381fe5c773c2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ee6535eb-f80b-4ac5-aee6-1c503dd846b3","path":"sprites/spr_hand/spr_hand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"01092a13-e45e-40a7-b4a1-62a6f7af661e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6bc79859-7434-4d29-b459-b1b2729c76a8","path":"sprites/Sprite103/Sprite103.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},
+    "parent": {"name":"Sprite103","path":"sprites/Sprite103/Sprite103.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_hand",
+    "name": "Sprite103",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9d1e94b5-bab0-42b9-bb3e-06d71c38b800","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ab2363e9-a894-4d9b-9ddf-c937f6c2d8d6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_hand",
+  "name": "Sprite103",
   "tags": [],
   "resourceType": "GMSprite",
 }

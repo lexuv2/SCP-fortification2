@@ -26,7 +26,6 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"reload_anim","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"spr_garand","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"shooting_anim","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"spr_garand","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"holding_anim","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"spr_garand","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"fulll_auto","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -39,6 +38,7 @@
     {"propertyId":{"name":"next_wepon","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"obj_siper_rifle","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"next_cost","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"150","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"damage","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"1.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"reload_sequence","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"seq_garand_reaload","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "weapons",

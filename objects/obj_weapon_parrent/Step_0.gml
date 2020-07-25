@@ -1,5 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+if in_sequence
+{
+	
+	layer_sequence_is_finished(sequence)
+}
+
+
 if tick>0
 tick--;
 
