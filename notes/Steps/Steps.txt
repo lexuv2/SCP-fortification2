@@ -1,0 +1,29 @@
+[PART 1: Server]
+rmMenu (both rooms 640x480)
+rmGame (light background)
+Import extension (credit YAL)
+open_two_windows() script
+oController, persistent, place in rmMenu
+	Create, open two windows, test
+	Draw instructions
+	Step, server/client code
+
+[PART 2: Player Instances]
+oPlayer
+	Create
+	Draw (draw pID)
+
+oController
+	Create
+	Clean Up
+	Room Start
+	Async Networking (Connect)
+	Async Networking (Data: INIT_DATA)
+
+[PART 3: Sending Updates]
+
+oPlayer
+	Step
+	
+oController
+	Async Networking (Data: PLAYER_UPDATE)
