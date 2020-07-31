@@ -5,6 +5,7 @@ offset = 0;
 
 rec_anim = false;
 
+sequence = noone;
 
 bought = 0;
 in_hands = -1;

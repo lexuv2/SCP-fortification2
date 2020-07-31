@@ -31,6 +31,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_skarbiec","path":"objects/obj_skarbiec/obj_skarbiec.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4384.0,"y":3168.0,"resourceVersion":"1.0","name":"inst_775F521D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_vase_spawn","path":"objects/obj_vase_spawn/obj_vase_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5760.0,"y":1280.0,"resourceVersion":"1.0","name":"inst_7860E054","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_vase_spawn","path":"objects/obj_vase_spawn/obj_vase_spawn.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5760.0,"y":4736.0,"resourceVersion":"1.0","name":"inst_2D5298DC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_siper_rifle","path":"objects/obj_siper_rifle/obj_siper_rifle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":3904.0,"resourceVersion":"1.0","name":"inst_7CC51EB8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances_2","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2272.0,"y":2496.0,"resourceVersion":"1.0","name":"inst_32070638","tags":[],"resourceType":"GMRInstance",},
@@ -1100,6 +1101,7 @@
     {"name":"inst_2BE423C0","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_7860E054","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_2D5298DC","path":"rooms/rmGame/rmGame.yy",},
+    {"name":"inst_7CC51EB8","path":"rooms/rmGame/rmGame.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

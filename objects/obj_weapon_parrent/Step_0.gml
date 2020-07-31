@@ -1,10 +1,40 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if in_sequence
+if sequence
 {
+
+	layer_sequence_x(sequence,in_hands.x);
+	layer_sequence_y(sequence,in_hands.y);
+	var _struct = layer_sequence_get_instance(sequence)
 	
-	layer_sequence_is_finished(sequence)
+	
+	
+	
+	for (var i =0;i<array_length(_struct.activeTracks);i++)
+	{
+		_struct.activeTracks[i].rotation=image_angle;
+		
+	if (image_angle>90 and image_angle<270)
+	{
+
+		_struct.activeTracks[i].scaley=-1;
+	}
+	else
+	{
+		_struct.activeTracks[i].scaley=1;
+	}
+		
+
+
+
+		
+	}
+	if layer_sequence_is_finished(sequence)
+	{
+	layer_sequence_destroy(sequence)
+	sequence=noone;
+	}
 }
 
 
