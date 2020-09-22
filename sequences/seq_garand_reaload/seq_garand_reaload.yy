@@ -86,8 +86,8 @@
   "eventToFunction": {},
   "eventStubScript": null,
   "parent": {
-    "name": "SCP fortification2",
-    "path": "SCP fortification2.yyp",
+    "name": "Sequences",
+    "path": "folders/Sequences.yy",
   },
   "resourceVersion": "1.3",
   "name": "seq_garand_reaload",

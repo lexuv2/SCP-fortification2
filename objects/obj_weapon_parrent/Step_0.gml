@@ -14,7 +14,7 @@ if sequence
 	for (var i =0;i<array_length(_struct.activeTracks);i++)
 	{
 		_struct.activeTracks[i].rotation=image_angle;
-		
+		_struct.rotation=90;
 	if (image_angle>90 and image_angle<270)
 	{
 
