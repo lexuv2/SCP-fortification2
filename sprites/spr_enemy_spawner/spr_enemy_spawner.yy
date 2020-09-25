@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51de721c-2479-41e4-a59b-4a5f9a44ab5e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Aux",
+    "path": "folders/Sprites/Aux.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemy_spawner",

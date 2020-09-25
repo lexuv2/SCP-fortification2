@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9f671096-be69-4c23-9a7b-03681aeaad9d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Aux",
+    "path": "folders/Sprites/Aux.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_debug_blue",

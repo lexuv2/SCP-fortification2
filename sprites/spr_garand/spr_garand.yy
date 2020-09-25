@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3bf05189-fae5-444c-8046-6d72bb66f8da","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Garand",
+    "path": "folders/Sprites/weapons/Garand.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_garand",

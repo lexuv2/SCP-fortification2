@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2b5e5ad6-2a2d-471b-8b01-98f9f0790517","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Captions",
+    "path": "folders/Sprites/Captions.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tuitroail_1",

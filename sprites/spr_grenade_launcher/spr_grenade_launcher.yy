@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"349667b9-3fc5-4b0b-8aea-0c4d5eb7f3a9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "greande_launcher",
+    "path": "folders/Sprites/weapons/greande_launcher.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_grenade_launcher",

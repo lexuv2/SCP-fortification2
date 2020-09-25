@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e735ef9-0238-43e3-85c6-8e6ad293deab","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Minigun",
+    "path": "folders/Sprites/weapons/Minigun.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_minigun",

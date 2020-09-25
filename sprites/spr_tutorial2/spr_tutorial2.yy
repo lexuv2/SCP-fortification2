@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d292e4f9-4d77-4c76-ba9c-36f1e3e35ab7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Captions",
+    "path": "folders/Sprites/Captions.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tutorial2",

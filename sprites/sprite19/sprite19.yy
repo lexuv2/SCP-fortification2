@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"56dd1326-d529-4101-b604-fac165397a36","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Aux",
+    "path": "folders/Sprites/Aux.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite19",
