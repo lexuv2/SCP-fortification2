@@ -2,7 +2,7 @@
 // Game room
 if (room == rmGame) {
 	// Create player
-	var plr = instance_create_layer(700,4846,"Instances_2", oPlayer);
+	var plr = instance_create_layer(700,4846,"Instances_2", obj_player);
 	plr.playerID = 0;
 	plr.player_name = inp_player_name	
 

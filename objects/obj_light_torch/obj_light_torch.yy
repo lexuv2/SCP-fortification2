@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "obj_lights",
-    "path": "folders/Objects/obj_lights.yy",
+    "name": "lights",
+    "path": "folders/Objects/lights.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_light_torch",

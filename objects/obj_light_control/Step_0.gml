@@ -31,14 +31,7 @@ instance_activate_region(__view_get( e__VW.XView, 0 )-400,__view_get( e__VW.YVie
 //instance_deactivate_object(obj_light_torch);
 //instance_deactivate_object(obj_light01);
 //instance_deactivate_object(obj_light02);
-instance_deactivate_object(obj_vehicle);
-instance_deactivate_object(obj_crate01);
-instance_deactivate_object(obj_crate02);
-instance_deactivate_object(obj_crate03);
-instance_deactivate_object(obj_shape01);
-instance_deactivate_object(obj_shape03);
-instance_deactivate_object(obj_shape04);
-instance_deactivate_object(obj_bush01);
+
 //instance_deactivate_object(obj_plant01);
 instance_deactivate_object(obj_shadow_mask);
 //instance_deactivate_object(obj_fire);
@@ -48,7 +41,6 @@ instance_deactivate_object(obj_ball);
 else if room = rmGame instance_activate_region(__view_get( e__VW.XView, 0 )-1000,__view_get( e__VW.YView, 0 )-1000,__view_get( e__VW.WView, 0 )+1000,__view_get( e__VW.HView, 0 )+1000,true); // 80 / 160 par défaut
 else instance_activate_region(__view_get( e__VW.XView, 0 )-1000,__view_get( e__VW.YView, 0 )-1000,__view_get( e__VW.WView, 0 )+1000,__view_get( e__VW.HView, 0 )+1000,true);
 
-instance_deactivate_object(obj_plant01);
 //instance_deactivate_object(obj_fire);
 //instance_deactivate_object(obj_ball);
 instance_activate_region(__view_get( e__VW.XView, 0 ),__view_get( e__VW.YView, 0 ),__view_get( e__VW.WView, 0 ),__view_get( e__VW.HView, 0 ),true);

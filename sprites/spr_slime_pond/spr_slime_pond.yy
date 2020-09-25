@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"91af395b-5ccb-40e2-8214-c212e8b21ede","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Slime",
+    "path": "folders/Sprites/Turrets/Slime.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_slime_pond",

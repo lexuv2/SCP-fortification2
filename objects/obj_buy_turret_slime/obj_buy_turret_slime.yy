@@ -29,8 +29,8 @@
     {"propertyId":{"name":"variable_name","path":"objects/obj_buy_turret_automatic/obj_buy_turret_automatic.yy",},"objectId":{"name":"obj_buy_turret_automatic","path":"objects/obj_buy_turret_automatic/obj_buy_turret_automatic.yy",},"value":"obj_slime_turret","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "UI",
+    "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_buy_turret_slime",

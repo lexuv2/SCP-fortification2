@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0852d9d0-295c-4841-b349-1210423c8c47","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Projectiles",
+    "path": "folders/Sprites/weapons/Projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_incendiary_greande",

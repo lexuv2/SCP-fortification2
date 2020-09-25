@@ -29,8 +29,8 @@
     {"propertyId":{"name":"hp","path":"objects/obj_bullet/obj_bullet.yy",},"objectId":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "projectiles",
+    "path": "folders/Objects/weapons/projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_penetrating_bullet",

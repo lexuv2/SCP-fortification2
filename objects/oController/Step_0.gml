@@ -115,7 +115,7 @@ if (room == rmGame)
 	
 	imguigml_begin("Player Deatils", 1); 
 	
-	imguigml_text("HP:" +string(oPlayer.hp))
+	imguigml_text("HP:" +string(obj_player.hp))
 	imguigml_text("Talent coins:" +string(money))
 	
 

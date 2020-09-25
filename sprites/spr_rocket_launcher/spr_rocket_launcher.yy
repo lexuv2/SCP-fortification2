@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"905397cf-09f6-494e-a624-6d66aefe312c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Rocket_launcher",
+    "path": "folders/Sprites/weapons/Rocket_launcher.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_rocket_launcher",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"980d8d8c-e4ef-4765-aab6-2e075a94a2fc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "trt1",
-    "path": "folders/Sprites/trt1.yy",
+    "name": "trt_auto",
+    "path": "folders/Sprites/Turrets/trt_auto.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_turret_barrel",

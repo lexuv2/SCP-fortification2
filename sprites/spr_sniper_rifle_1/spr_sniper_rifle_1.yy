@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"08b28765-b8fc-47bf-967d-550c4021b121","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sniper_Rifle",
+    "path": "folders/Sprites/weapons/Sniper_Rifle.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sniper_rifle_1",

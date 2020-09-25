@@ -6,7 +6,7 @@
 // use a variable to turn camera object following the player object on and off
 _follow_object = true;
 
-follow_inst = oPlayer
+follow_inst = obj_player
 // initialize exCamera first (must be called before any ex_camera_* functions are used!)
 ex_camera_initialize();
 
@@ -17,7 +17,7 @@ ex_camera_set_debug_mode(true);
 // create a camera
 
 // test: normal (limit bounds)
-ex_camera_create("main", 0, 0, 0, 1920, 1080, 0, 0, 0, 100, oPlayer, true, 0, 0, room_width, room_height);
+ex_camera_create("main", 0, 0, 0, 1920, 1080, 0, 0, 0, 100, obj_player, true, 0, 0, room_width, room_height);
 
 // test: normal (no limit bounds)
 //ex_camera_create("main", 0, 0, 0, 1280, 720, 0, 0, 0, 100, obj_ex_camera_demo_camera, false);

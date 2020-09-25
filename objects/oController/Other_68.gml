@@ -36,7 +36,7 @@ if (type == network_type_connect) {
 
 	
 	// Create player instance
-	var plr = instance_create_layer(obj_nexus.x,obj_nexus.y, "Instances", oPlayer);
+	var plr = instance_create_layer(obj_nexus.x,obj_nexus.y, "Instances", obj_player);
 	plr.playerID = ds_list_size(clients);
 	plr.is_local = false;
 	
@@ -58,7 +58,7 @@ if (type == network_type_connect) {
 	
 	buffer_delete(buffer);
 	
-	with(oPlayer)
+	with(obj_player)
 	{
 
 		if (weapon) 
@@ -91,11 +91,11 @@ else if (type == network_type_data) {
 		var count = buffer_read(buffer, buffer_u8);
 		
 		// Set your player's ID
-		oPlayer.playerID = count;
+		obj_player.playerID = count;
 		
 		// Create other players
 		for (var i=0; i < count; i++) {
-			var plr = instance_create_layer(random(room_width), random(room_height), "Instances", oPlayer);
+			var plr = instance_create_layer(random(room_width), random(room_height), "Instances", obj_player);
 			plr.playerID = i;
 			plr.is_local = false;
 		}
@@ -143,7 +143,7 @@ else if (type == network_type_data) {
 	else if (data == DATA.PLAYER_UPDATE_POS) {
 		var pID = buffer_read(buffer, buffer_u8);
 		
-		with (oPlayer) {
+		with (obj_player) {
 			if (pID == playerID)  {
 				
 				if (!is_local)
@@ -163,7 +163,7 @@ else if (type == network_type_data) {
 	else if (data == DATA.PLAYER_UPDATE_HP) {
 		var pID = buffer_read(buffer, buffer_u8);
 		
-		with (oPlayer) {
+		with (obj_player) {
 			if (pID == playerID) {
 				hp = buffer_read(buffer, buffer_f16);
 				maxhp = buffer_read(buffer, buffer_f16);
@@ -177,7 +177,7 @@ else if (type == network_type_data) {
 	else if (data == DATA.PLAYER_UPDATE_ROT) {
 		var pID = buffer_read(buffer, buffer_u8);
 		
-		with (oPlayer) {
+		with (obj_player) {
 			if (pID == playerID) {
 				image_angle = buffer_read(buffer, buffer_s16);
 
@@ -192,7 +192,7 @@ else if (type == network_type_data) {
 	else if (data == DATA.PLAYER_SET_NAME) {
 				var pID = buffer_read(buffer, buffer_u8);
 		
-		with (oPlayer) {
+		with (obj_player) {
 			if (pID == playerID) {
 				player_name = buffer_read(buffer, buffer_string);
 				
@@ -253,7 +253,7 @@ else if (type == network_type_data) {
 		bullet_inst.image_angle=bullet_dir;
 		bullet_inst.speed=bullet_speed;
 		
-		with(oPlayer)
+		with(obj_player)
 		{
 			if (pID == playerID) {
 				with(weapon)
@@ -281,7 +281,7 @@ else if (type == network_type_data) {
 	// PLAYER_JOINED
 	else if (data == DATA.PLAYER_JOINED) {
 		show_debug_message("PLAYER JOINED")
-		var inst = instance_create_layer(0, 0, "Instances", oPlayer);
+		var inst = instance_create_layer(0, 0, "Instances", obj_player);
 		
 		inst.playerID = buffer_read(buffer, buffer_u8);
 		inst.is_local = false;
@@ -292,7 +292,7 @@ else if (type == network_type_data) {
 		var pID = buffer_read(buffer,buffer_u8)
 		var inst_create = buffer_read(buffer,buffer_u16)
 		var _inst = instance_create_layer(200,200,"instances_2", inst_create)
-		with(oPlayer)
+		with(obj_player)
 		{
 				if (pID == playerID) {
 				weapon=_inst;
@@ -312,7 +312,7 @@ else if (type == network_type_data) {
 		
 		var pID = buffer_read(buffer,buffer_u8)
 
-		with(oPlayer)
+		with(obj_player)
 		{
 				if (pID == playerID) {
 				weapon.sprite_index=weapon.reload_anim
@@ -325,7 +325,7 @@ else if (type == network_type_data) {
 	{
 		
 		var pID = buffer_read(buffer,buffer_u8)
-		with(oPlayer)
+		with(obj_player)
 		{
 				if (pID == playerID) {
 				weapon.in_hands=-1;

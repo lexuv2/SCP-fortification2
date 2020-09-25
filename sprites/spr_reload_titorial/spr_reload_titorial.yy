@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5dcc1c50-86a8-432d-9f5d-bffa7ee2e323","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Captions",
+    "path": "folders/Sprites/Captions.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_reload_titorial",

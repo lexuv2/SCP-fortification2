@@ -68,12 +68,12 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"2ad54f8e-303b-4be6-8b5c-4aeb4036b28a","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"9879ee7c-7394-4665-9224-939a8502f5d1","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":false,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0fefb96-8a8d-4e1b-ab11-9353f3de6949","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"9879ee7c-7394-4665-9224-939a8502f5d1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e0fefb96-8a8d-4e1b-ab11-9353f3de6949","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "M4",
+    "path": "folders/Sprites/weapons/M4.yy",
   },
   "resourceVersion": "1.0",
   "name": "M4A4_Holding_In_Hands",

@@ -24,15 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"obj_enemy_fire","path":"objects/obj_enemy_fire/obj_enemy_fire.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_enemy_fire","path":"objects/obj_enemy_fire/obj_enemy_fire.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_enemy_fire","path":"objects/obj_enemy_fire/obj_enemy_fire.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"move_speed","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"goto_nearst_obj","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"oPlayer","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"money_gain","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"","path":"",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"","path":"",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"","path":"",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"oPlayer","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"","path":"",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"goto_nearst_obj","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"obj_player","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "enemies",

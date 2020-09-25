@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"286bed08-66d2-44da-8cf1-406c4949d3b7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "trt_incendieary",
+    "path": "folders/Sprites/Turrets/trt_incendieary.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fire_tuirret_body",

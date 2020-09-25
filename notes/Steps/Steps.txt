@@ -9,7 +9,7 @@ oController, persistent, place in rmMenu
 	Step, server/client code
 
 [PART 2: Player Instances]
-oPlayer
+obj_player
 	Create
 	Draw (draw pID)
 
@@ -22,7 +22,7 @@ oController
 
 [PART 3: Sending Updates]
 
-oPlayer
+obj_player
 	Step
 	
 oController

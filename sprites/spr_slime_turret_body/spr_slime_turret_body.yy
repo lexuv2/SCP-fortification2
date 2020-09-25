@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e3911ba6-9683-4a52-bcb2-0f9e5c079e25","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Slime",
+    "path": "folders/Sprites/Turrets/Slime.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_slime_turret_body",

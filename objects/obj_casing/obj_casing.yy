@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "projectiles",
+    "path": "folders/Objects/weapons/projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_casing",

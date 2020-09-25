@@ -336,8 +336,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"66fd849a-eba6-442b-a331-e451d0d43d6b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Glock",
+    "path": "folders/Sprites/weapons/Glock.yy",
   },
   "resourceVersion": "1.0",
   "name": "Glock17_Reload",

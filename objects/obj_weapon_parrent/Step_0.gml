@@ -48,7 +48,7 @@ if (in_hands)
 {
 	x=in_hands.x-offset;
 	y=in_hands.y;
-	image_angle=point_direction(oPlayer.x,oPlayer.y,mouse_x,mouse_y)
+	image_angle=point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y)
 	if (image_angle>90 and image_angle<270)
 	{
 		image_xscale=1;

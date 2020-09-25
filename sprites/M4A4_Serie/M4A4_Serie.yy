@@ -17,8 +17,8 @@
   "width": 128,
   "height": 64,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "",
+    "path": "",
   },
   "swatchColours": null,
   "gridX": 2,
@@ -84,8 +84,8 @@
     {"visible":true,"isLocked":true,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8ad7b409-7d3e-4b28-b962-7a36d6ce9572","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "M4",
+    "path": "folders/Sprites/weapons/M4.yy",
   },
   "resourceVersion": "1.0",
   "name": "M4A4_Serie",

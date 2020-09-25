@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4674fe92-0542-417e-9e98-34a6ee75dc24","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "BG",
+    "path": "folders/Sprites/BG.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_you_win",

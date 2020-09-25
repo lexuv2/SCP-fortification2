@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-oPlayer.camera_target=oPlayer.id
+obj_player.camera_target=obj_player.id

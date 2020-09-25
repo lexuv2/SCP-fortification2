@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ceea9b20-b0c9-456b-9fb1-0f26a8c2cd8f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Projectiles",
+    "path": "folders/Sprites/weapons/Projectiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bullet",

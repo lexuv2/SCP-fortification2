@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"21765aa3-7c10-4ce2-8999-7f1e1b0813ee","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "trt_incendieary",
+    "path": "folders/Sprites/Turrets/trt_incendieary.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_fire_barrel",

@@ -148,7 +148,7 @@ sl_light_shadowfactor    = 1.032;
 sl_light_shadowsharpness = 0.2;
 
 // Rotation de la lumière
-if fps!=0 sl_light_angle+=1.7*(60/fps);
+if fps!=0 sl_light_angle+=5*(60/fps);
 if sl_light_angle>=360 sl_light_angle=0;
 
 if __view_get( e__VW.YView, 0 )+__view_get( e__VW.HView, 0 )<y sl_light_active=false else sl_light_active=true;

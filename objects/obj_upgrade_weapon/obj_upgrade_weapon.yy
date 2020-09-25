@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "map_elements",
+    "path": "folders/Objects/map_elements.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_upgrade_weapon",

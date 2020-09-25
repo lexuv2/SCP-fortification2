@@ -17,8 +17,8 @@
   "width": 128,
   "height": 128,
   "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
+    "name": "",
+    "path": "",
   },
   "swatchColours": null,
   "gridX": 0,
@@ -74,8 +74,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cfdf15fe-0a01-4d15-8897-adabc0dd2ac2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Glock",
+    "path": "folders/Sprites/weapons/Glock.yy",
   },
   "resourceVersion": "1.0",
   "name": "Glock17_Holding_In_Hands",

@@ -1,4 +1,4 @@
-mode = 0;
+//mode = 0;
 alarm[0] = 1;
 
 // Variables utilisées dans Step
@@ -18,7 +18,7 @@ sl_light_shadowsharpness = 0.22; // Facteur de dureté des ombres
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);
 SL_light_cast_obj( obj_collsision, -1 );
-SL_light_cast_obj( oPlayer, -1 );
+SL_light_cast_obj( obj_player, -1 );
 //SL_light_cast_obj( obj_vehicle, -1 );
 
 SL_light_ini_end(); // Termine l'initialisation de l'objet lumière

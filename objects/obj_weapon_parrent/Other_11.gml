@@ -19,8 +19,9 @@ if sequence_exists(shooting_sequence)
 
 
 audio_play_sound(shoot_sound,0,false)
-shakeIntensity+=recoil*2
-//ex_camera_shake()
+
+ex_camera_shake("main",recoil/2000,recoil/2000,0,5,1,0,0)
+
 rec_anim=true
 
 var dir = point_direction(x,y,mouse_x,mouse_y)
@@ -30,6 +31,6 @@ inst.sl_light_texture = spr_light01
 inst.alarm[2]=2;
 with(inst)
 {
-	SL_light_cast_obj( oPlayer, -1 );
+	SL_light_cast_obj( obj_player, -1 );
 	dist = 60
 }

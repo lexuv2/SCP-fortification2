@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8de41cc2-5131-4a26-977d-842a95b5f29a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Slime",
+    "path": "folders/Sprites/Turrets/Slime.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_slime_projectile",

@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"af54afc8-6904-4989-9cde-805f5af4a67a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "trt1",
-    "path": "folders/Sprites/trt1.yy",
+    "name": "trt_auto",
+    "path": "folders/Sprites/Turrets/trt_auto.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_turret_hinge",
