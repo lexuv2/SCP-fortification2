@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"color","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"objectId":{"name":"obj_light_parrent","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"value":"$FF0000FF","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"scale","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"objectId":{"name":"obj_light_parrent","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"scale","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"objectId":{"name":"obj_light_parrent","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"power1","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"objectId":{"name":"obj_light_parrent","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"value":"0.8","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"shadow_sharpness","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"objectId":{"name":"obj_light_parrent","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],

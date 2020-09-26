@@ -26,7 +26,7 @@ sl_sunshadows_layerscale[3] = 1;
 sl_sunshadows_layerscale[4] = 1;
 sl_sunshadows_layerscale[5] = 1;
 
-sl_ambientshadows_active = true; // Active le rendu des ombres ambiantes
+sl_ambientshadows_active = false; // Active le rendu des ombres ambiantes
 
 // Génère les ambient maps
 

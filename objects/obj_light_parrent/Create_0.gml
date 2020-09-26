@@ -1,5 +1,5 @@
 //mode = 0;
-alarm[0] = 1;
+alarm[0] = 2;
 
 // Variables utilisées dans Step
 time = 0;
@@ -22,7 +22,7 @@ sl_light_power = power1
 
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);
-SL_light_cast_obj( obj_collsision, -1 );
+SL_light_cast_obj( obj_map_shadow_mask, -1 );
 SL_light_cast_obj( obj_player, -1 );
 //SL_light_cast_obj( obj_vehicle, -1 );
 
