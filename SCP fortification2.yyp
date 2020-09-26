@@ -22,6 +22,7 @@
     {"id":{"name":"spr_casing","path":"sprites/spr_casing/spr_casing.yy",},"order":3,},
     {"id":{"name":"spr_tileset_1","path":"sprites/spr_tileset_1/spr_tileset_1.yy",},"order":13,},
     {"id":{"name":"spr_debug","path":"sprites/spr_debug/spr_debug.yy",},"order":0,},
+    {"id":{"name":"spr_game_icon","path":"sprites/spr_game_icon/spr_game_icon.yy",},"order":10,},
     {"id":{"name":"spr_enemy_spawner","path":"sprites/spr_enemy_spawner/spr_enemy_spawner.yy",},"order":2,},
     {"id":{"name":"sprite14","path":"sprites/sprite14/sprite14.yy",},"order":16,},
     {"id":{"name":"PropozycjeBroni","path":"sprites/PropozycjeBroni/PropozycjeBroni.yy",},"order":8,},

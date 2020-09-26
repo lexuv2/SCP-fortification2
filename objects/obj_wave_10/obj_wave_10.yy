@@ -27,6 +27,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"spawn_delay","path":"objects/obj_wave_parrent/obj_wave_parrent.yy",},"objectId":{"name":"obj_wave_parrent","path":"objects/obj_wave_parrent/obj_wave_parrent.yy",},"value":"30","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"wavenumber","path":"objects/obj_wave_parrent/obj_wave_parrent.yy",},"objectId":{"name":"obj_wave_parrent","path":"objects/obj_wave_parrent/obj_wave_parrent.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"next_wave_object","path":"objects/obj_wave_parrent/obj_wave_parrent.yy",},"objectId":{"name":"obj_wave_parrent","path":"objects/obj_wave_parrent/obj_wave_parrent.yy",},"value":"obj_you_won","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "waves",

@@ -13,7 +13,6 @@ sl_light_shadowfactor = 1.005
 // SL_light_cast_obj(obj,mask);
 
 SL_light_cast_obj( obj_map_shadow_mask, -1 );
-SL_light_cast_obj( obj_turret_parrent, spr_shadow_mask_turret );
 
 SL_light_ini_end(); // Termine l'initialisation de l'objet lumière
 
