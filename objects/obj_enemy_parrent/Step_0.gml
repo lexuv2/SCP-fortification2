@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(instance_exists(obj_pause))
+{
+	speed=0;	
+	exit;
+	
+}
 
 //image_angle=point_direction(x,y,goto_nearst_obj.x,goto_nearst_obj.y)
 

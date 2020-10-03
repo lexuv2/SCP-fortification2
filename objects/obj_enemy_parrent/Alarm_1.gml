@@ -1,5 +1,7 @@
 /// @description update path
 // You can write your code in this editor
+
+
 alarm_set(1,irandom_range(update_path_interval-10,update_path_interval+10));
 
 mp_grid_clear_rectangle(global.grid,xprevious-sprite_width/2,yprevious-sprite_height/2,xprevious+sprite_width/2,yprevious+sprite_height/2)

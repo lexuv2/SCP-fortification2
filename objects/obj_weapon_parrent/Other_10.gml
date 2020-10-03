@@ -5,7 +5,11 @@ if tick>0 and in_hands.is_local
 exit
 
 if mag_ammo<=0 and in_hands.is_local
+{
+event_perform(ev_keypress, ord("R"));
+
 exit
+}
 
 
 

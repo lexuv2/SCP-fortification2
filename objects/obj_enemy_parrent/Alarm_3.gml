@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(instance_exists(obj_pause))exit;
+
 alarm_set(3,120)
 var aim = obj_player.id
 if !(collision_line(x,y,aim.x,aim.y,obj_collsision,false,true))

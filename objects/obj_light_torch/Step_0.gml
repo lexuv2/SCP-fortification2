@@ -1,4 +1,5 @@
 // Actualisation des variables de la lumière
+if(instance_exists(obj_pause))exit;
 sl_light_active = true;
 dir=point_direction(x,y,mouse_x,mouse_y)
 
