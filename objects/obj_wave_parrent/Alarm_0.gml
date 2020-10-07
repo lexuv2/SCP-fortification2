@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+alarm_set(0,spawn_delay)
+if instance_exists(obj_pause) exit
 if (!ds_queue_empty(enemy_que))
 {
 
@@ -16,7 +17,7 @@ if (!ds_queue_empty(enemy_que))
 	{
 	instance_create_layer(obj_enemy_spawner.x,obj_enemy_spawner.y,"instances",wazadozrobienia)
 	}
-	alarm_set(0,spawn_delay)
+	
 }
 else
 {
@@ -28,5 +29,4 @@ else
 	inst.text="WAVE COMPLETE"
 	finish=true
 	}
-	alarm_set(0,spawn_delay)
 }

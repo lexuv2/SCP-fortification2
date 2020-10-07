@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-shakeIntensity=40;
+instance_destroy(obj_save_game_button)

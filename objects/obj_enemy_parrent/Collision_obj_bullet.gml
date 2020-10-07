@@ -13,10 +13,11 @@ audio_play_sound(snd_hitmarker,1,0)
 
 hp-=(other.speed/20)*other.damage;
 other.hp-=1
+
+if other.hp<=0
+instance_destroy(other.id)
+
 if hp <=0
 {
-
-	
-	
 instance_destroy(id)
 }

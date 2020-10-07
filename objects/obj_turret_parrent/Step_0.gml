@@ -1,15 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 light.sl_light_angle = barrel_dir
 
+if instance_exists(obj_pause)exit
 
 image_speed=0;
 
 if ! instance_exists(obj_enemy_parrent) exit
 var  aim = instance_nearest(x,y,obj_enemy_parrent)
 if point_distance(x,y,aim.x,aim.y)>range exit
-if (collision_line(x,y,aim.x,aim.y,obj_collsision,true,true)==true) exit
+if (collision_line(x,y,aim.x,aim.y,obj_collsision,true,false)) exit
 
 if (shoot_delay<=0)
 {

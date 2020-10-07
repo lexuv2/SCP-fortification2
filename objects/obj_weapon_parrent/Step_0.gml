@@ -66,6 +66,9 @@ if (in_hands)
 	x=in_hands.x;
 	}
 	
+	if (image_angle<180)layer=layer_get_id("instances_2")
+	else layer=layer_get_id("instances_3")
+	
 
 }
 

@@ -12,7 +12,7 @@ if sequence
 
 if sequence_exists(shooting_sequence)
 {
-	sequence  = layer_sequence_create("instances_3",x,y,shooting_sequence)
+	sequence  = layer_sequence_create(layer,x,y,shooting_sequence)
 }
 
 
@@ -21,6 +21,7 @@ if sequence_exists(shooting_sequence)
 audio_play_sound(shoot_sound,0,false)
 
 ex_camera_shake("main",recoil/2000,recoil/2000,0,5,1,0,0)
+//shake cae4ra
 
 rec_anim=true
 

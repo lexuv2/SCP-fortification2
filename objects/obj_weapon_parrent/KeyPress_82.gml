@@ -18,7 +18,7 @@ client_send_buffer(buffer)
 if sprite_exists(reload_anim)
 sprite_index=reload_anim
 if sequence_exists(reload_sequence)
-layer_sequence_create("instances_2",x,y,reload_sequence)
+layer_sequence_create(layer_get_name(layer),x,y,reload_sequence)
 
 
 tick=reload_time_sec*60;
