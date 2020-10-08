@@ -9,6 +9,7 @@ dist = 30
 sl_light_xscale = 3
 sl_light_yscale = 3
 sl_light_shadowfactor = 1.005
+sl_light_power_override = 0;
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);
 

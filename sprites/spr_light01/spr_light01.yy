@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_light01","path":"sprites/spr_light01/spr_light01.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_light01",
     "tags": [],
     "resourceType": "GMSequence",
   },
