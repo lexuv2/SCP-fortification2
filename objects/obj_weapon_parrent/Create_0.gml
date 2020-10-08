@@ -3,7 +3,7 @@
 
 
 
-
+croshair_sprite = spr_croshair
 
 offset = 0;
 
@@ -22,3 +22,4 @@ reload_progress=0;
 semi_can_shoot = true
 
 draw_tooltip=false;
+cursor_sprite=croshair_sprite

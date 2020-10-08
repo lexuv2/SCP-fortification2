@@ -21,13 +21,14 @@ tick=shooting_speed
 
 
 spread =  point_direction(x,y,mouse_x,mouse_y);
-spread -= (pellets/2) * pellets_spread;
+//spread -= (pellets/2) * (pellets_spread);
 
 for (var i =0;i<pellets; i++)
 {
+	var tmp_bullet_speed = bullet_speed+irandom_range(-speed_vary,speed_vary)
 	var buffer = buffer_create(12, buffer_fixed, 1);
 	
-	var bullet_dir =spread;
+	var bullet_dir =spread+random_range(-pellets_spread,pellets_spread);
 	var bullet_x = lengthdir_x(64,bullet_dir)+x
 	var bullet_y = lengthdir_y(64,bullet_dir)+y
 	
@@ -38,7 +39,7 @@ for (var i =0;i<pellets; i++)
 	buffer_write(buffer, buffer_s16, bullet_x);
 	buffer_write(buffer, buffer_s16, bullet_y);
 	buffer_write(buffer, buffer_s16, bullet_dir);
-	buffer_write(buffer, buffer_s16, bullet_speed); // bullet speed
+	buffer_write(buffer, buffer_s16, tmp_bullet_speed); // bullet speed
 	buffer_write(buffer, buffer_s16, projectile); 
 	
 	client_send_buffer(buffer)
@@ -51,12 +52,13 @@ for (var i =0;i<pellets; i++)
 	var bullet_inst = instance_create_layer(bullet_x,bullet_y,"instances",projectile);
 	bullet_inst.direction=bullet_dir;
 	bullet_inst.image_angle=bullet_dir;
-	bullet_inst.speed=bullet_speed;
+	bullet_inst.speed=tmp_bullet_speed;
+	bullet_inst.deco=draw_deco;
 	bullet_inst.damage=damage
 	
 	
 	}
-	spread += pellets_spread;
+	//spread += (irandom_range(-pellets_spread,pellets_spread));
 
 }
 
@@ -67,8 +69,8 @@ var mouse_pos_y = window_mouse_get_y()
 var _mouse_dir = point_direction(x,y,mouse_x,mouse_y)
 
 
-var _lendir_x = lengthdir_x(recoil,_mouse_dir+90)
-var _lendir_y = lengthdir_y(recoil,_mouse_dir+90)
+var _lendir_x = lengthdir_x(recoil*image_yscale,_mouse_dir+90)
+var _lendir_y = lengthdir_y(recoil*image_yscale,_mouse_dir+90)
 
 window_mouse_set(mouse_pos_x+_lendir_x,mouse_pos_y+_lendir_y)
 

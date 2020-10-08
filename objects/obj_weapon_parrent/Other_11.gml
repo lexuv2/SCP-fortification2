@@ -32,7 +32,6 @@ inst.sl_light_texture = spr_light01
 inst.sl_light_xscale = 3;
 inst.sl_light_yscale = 3;
 inst.sl_light_shadowlength=5;
-inst.sl_light_ambientpower=0.6;
 inst.sl_light_power_override = 0.3;
 inst.alarm[2]=4;
 with(inst)

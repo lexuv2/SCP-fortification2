@@ -11,6 +11,7 @@
     {"id":{"name":"obj_light_parrent","path":"objects/obj_light_parrent/obj_light_parrent.yy",},"order":1,},
     {"id":{"name":"sWhiteBlock","path":"sprites/sWhiteBlock/sWhiteBlock.yy",},"order":2,},
     {"id":{"name":"sBbjeans","path":"sprites/sBbjeans/sBbjeans.yy",},"order":3,},
+    {"id":{"name":"spr_croshair","path":"sprites/spr_croshair/spr_croshair.yy",},"order":10,},
     {"id":{"name":"draw_set_blend_mode","path":"scripts/draw_set_blend_mode/draw_set_blend_mode.yy",},"order":0,},
     {"id":{"name":"spr_telent_serwer","path":"sprites/spr_telent_serwer/spr_telent_serwer.yy",},"order":8,},
     {"id":{"name":"sprite19","path":"sprites/sprite19/sprite19.yy",},"order":5,},
