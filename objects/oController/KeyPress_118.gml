@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-//instance_create_layer(0,0,"instances_3",obj_save_game_button)
+instance_create_layer(mouse_x,mouse_y,"instances_3",obj_glowstick)

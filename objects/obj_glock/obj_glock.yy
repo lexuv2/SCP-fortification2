@@ -36,6 +36,7 @@
     {"propertyId":{"name":"holding_anim","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"Glock17_Holding_In_Hands","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"bullet_speed","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"30","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"fulll_auto","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"next_wepon","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"obj_shotgun","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "weapons",

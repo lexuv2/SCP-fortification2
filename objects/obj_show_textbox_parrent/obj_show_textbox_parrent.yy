@@ -28,7 +28,9 @@
   "properties": [
     {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"spr_to_draw","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":2,"value":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"text","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":5,"value":"font_pixel","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"font","tags":[],"resourceType":"GMObjectProperty",},
+    {"varType":5,"value":"font_scp_32","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[
+        "GMFont",
+      ],"resourceVersion":"1.0","name":"font","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":5,"value":"noone","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":null,"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"instance_to_create_after_destory","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"60","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"can_skip_after","tags":[],"resourceType":"GMObjectProperty",},
     {"varType":1,"value":"3","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"draw_speed","tags":[],"resourceType":"GMObjectProperty",},

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-//instance_create_layer(0,0,"instances_3",obj_save_game_button)
+
+draw_set_font(font_scp_32)
+draw_text(1920/2,1080/2,"GAME PAUSED")

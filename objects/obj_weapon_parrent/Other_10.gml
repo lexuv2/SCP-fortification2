@@ -55,7 +55,8 @@ for (var i =0;i<pellets; i++)
 	bullet_inst.speed=tmp_bullet_speed;
 	bullet_inst.deco=draw_deco;
 	bullet_inst.damage=damage
-	
+	if mag_ammo==1
+	bullet_inst.damage*=2;
 	
 	}
 	//spread += (irandom_range(-pellets_spread,pellets_spread));

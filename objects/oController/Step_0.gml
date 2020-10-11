@@ -9,7 +9,7 @@ else
 visible=false
 
 if (room == Menulit) {
-	
+	/*
 	imguigml_set_next_window_size(0,0);
 	imguigml_set_next_window_pos(-300,-300)
 	
@@ -36,7 +36,7 @@ if (room == Menulit) {
 	enemy_hp_factor = ret[1]
 	ret = imguigml_input_float("Mob Speed Factor",mob_speed_factor)
 	mob_speed_factor = ret[1]
-	
+	*/
 	/*roundtime="";
 player_spawn_time=30; // sekundy
 mob_spawn_factor=1;
@@ -49,7 +49,7 @@ mob_speed_factor=1;
 game_tick=0;*/
 	
 	
-	
+/*	
 	// Host
 	if (button_create_server) {
 		server = network_create_server(network_socket_tcp, server_port, 10);
@@ -119,6 +119,6 @@ if (room == rmGame)
 	imguigml_text("Talent coins:" +string(money))
 	
 
-	
+	*/
 	
 }
