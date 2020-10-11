@@ -40,7 +40,7 @@
     {"propertyId":{"name":"projectile","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"obj_penetrating_bullet","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"fulll_auto","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"damage","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"2.2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"shooting_sequence","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"sniper_bolt_reload","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"shooting_sequence","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"objectId":{"name":"obj_weapon_parrent","path":"objects/obj_weapon_parrent/obj_weapon_parrent.yy",},"value":"sniper_bolt_reload_backup","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "weapons",

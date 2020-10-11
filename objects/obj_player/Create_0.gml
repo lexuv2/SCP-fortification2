@@ -1,5 +1,7 @@
 /// @description 
 moveSpeed = 8;
+sprintSpeed = 12;
+lastsprinted = 0;
 is_local = true;
 playerID = -1;
 weapon=-1;
@@ -12,6 +14,9 @@ is_player_initalized = 0;
 
 maxhp = hp;
 burning = 0;
+
+maxstamina = 300;
+stamina = 300;
 
 emmiter = part_emitter_create(global.part_system)
 

@@ -81,11 +81,29 @@ right = !collision_point(x+32,y,obj_collsision,true,true)
 if left
 left = !collision_point(x-32,y,obj_collsision,true,true)
 
-
+if keyboard_check(vk_lshift) and stamina>0 and(up or down or right or left)
+{
+y-=up*sprintSpeed
+y+=down*sprintSpeed
+x+=right*sprintSpeed
+x-=left*sprintSpeed
+stamina--;
+lastsprinted=0;
+}
+else
+{
 y-=up*moveSpeed
 y+=down*moveSpeed
 x+=right*moveSpeed
 x-=left*moveSpeed
+lastsprinted++;
+
+if stamina<maxstamina and lastsprinted>=60*2
+stamina+=0.35;
+
+
+}
+
 // Create buffer with position
 var buffer = buffer_create(6, buffer_fixed, 1);
 

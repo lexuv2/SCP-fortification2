@@ -12,7 +12,7 @@ if sequence
 
 if sequence_exists(shooting_sequence)
 {
-	sequence  = layer_sequence_create(layer,x,y,shooting_sequence)
+	sequence  = layer_sequence_create("layer_weapons",x,y,shooting_sequence)
 }
 
 

@@ -135,6 +135,7 @@
     {"id":{"name":"server_plyer_forward","path":"scripts/server_plyer_forward/server_plyer_forward.yy",},"order":3,},
     {"id":{"name":"client_send_buffer","path":"scripts/client_send_buffer/client_send_buffer.yy",},"order":4,},
     {"id":{"name":"FG_light_init","path":"scripts/FG_light_init/FG_light_init.yy",},"order":0,},
+    {"id":{"name":"spr_hp_and_stamina","path":"sprites/spr_hp_and_stamina/spr_hp_and_stamina.yy",},"order":11,},
     {"id":{"name":"FG_light_SM_start","path":"scripts/FG_light_SM_start/FG_light_SM_start.yy",},"order":0,},
     {"id":{"name":"FG_light_SM_point","path":"scripts/FG_light_SM_point/FG_light_SM_point.yy",},"order":1,},
     {"id":{"name":"FG_light_SM_point_z","path":"scripts/FG_light_SM_point_z/FG_light_SM_point_z.yy",},"order":2,},

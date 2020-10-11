@@ -23,3 +23,4 @@ semi_can_shoot = true
 
 draw_tooltip=false;
 cursor_sprite=croshair_sprite
+layer=layer_get_id("layer_weapons")

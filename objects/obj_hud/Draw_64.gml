@@ -13,8 +13,19 @@ draw_text(64+16,128+16,obj_player.weapon.mag_ammo)
 draw_sprite_ext(spr_peanut,0,32,32,1,1,0,c_white,1)
 draw_text(96,16,int64(oController.money))
 
-draw_sprite_ext(hp_indicaator,0,0,64,1,1,0,c_white,1)
-draw_text(96,64+16,obj_player.hp)
+
+draw_set_alpha(0.6)
+var hpx=100;
+var hpy=960;
+var hpcol = make_color_rgb(115,56,56)
+var stamcol = make_color_rgb(21,63,84)
+draw_healthbar(hpx,hpy,hpx+sprite_get_width(spr_hp_and_stamina)-2,hpy+30,(obj_player.hp/obj_player.maxhp)*100,c_black,hpcol,hpcol,90,false,false)
+draw_sprite_ext(spr_hp_and_stamina,0,100,960,1,1,0,c_white,1)
+
+draw_healthbar(hpx,hpy,hpx+sprite_get_width(spr_hp_and_stamina)-2,hpy+30,(obj_player.hp/obj_player.maxhp)*100,c_black,hpcol,hpcol,90,false,false)
+draw_healthbar(hpx,hpy+30,hpx+sprite_get_width(spr_hp_and_stamina)-2,hpy+60-2,(obj_player.stamina/obj_player.maxstamina)*100,c_black,stamcol,stamcol,90,false,false)
+draw_sprite_ext(spr_hp_and_stamina,0,100,960,1,1,0,c_white,1)
+draw_set_alpha(1)
 
 
 draw_sprite_ext(spr_warhead,0,0,128+64,1,1,0,c_white,1)
