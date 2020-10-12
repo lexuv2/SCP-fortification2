@@ -1,3 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(obj_save_game_button)
+for (var i=0;i<ds_list_size(buttons);i++)
+{
+	instance_destroy(buttons[|i]);
+}
+
+
+global.draw_gui=true;

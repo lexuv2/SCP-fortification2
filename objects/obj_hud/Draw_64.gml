@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if global.draw_gui==0 exit
 if obj_player.weapon!=-1
 {
 	draw_set_color(c_white)

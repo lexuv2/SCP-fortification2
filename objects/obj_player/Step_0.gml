@@ -119,23 +119,9 @@ buffer_delete(buffer);
 
 //CAMERA STUFF
 
-with (obj_camera)
-{
-	
-x=other.x;
-y=other.y;
-	
-if (shakeIntensity > 0)
-{
-    x += choose(random(shakeIntensity), random(-shakeIntensity));
-    y += choose(random(shakeIntensity), random(-shakeIntensity));
-	
-}
 
 
 
 
-
-}
 
 

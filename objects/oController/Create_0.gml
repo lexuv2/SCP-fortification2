@@ -2,6 +2,8 @@
 open_two_windows();
 randomize();
 
+cursor_sprite = spr_cursor
+
 inp_player_name = "Szu"
 
 // Connection info
