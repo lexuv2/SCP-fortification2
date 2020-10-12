@@ -10,3 +10,7 @@ can_skip = false
 draw_set_font(font)
 if automatic_line_distance
 line_distance=string_height(text)
+
+if in_sequence
+seq = sequence_instance.elementID
+else seq =-1

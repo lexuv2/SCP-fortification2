@@ -22,6 +22,8 @@ emmiter = part_emitter_create(global.part_system)
 
 alarm_set(0,90)
 
+instance_create_layer(0,0,"instances",obj_card_inventory)
+
 ex_camera_create("main", 0, 0, 0, 1920, 1080, 0, 0, 0, 100, id, true, 0, 0, room_width, room_height);
 camera_target=id;
 whiten=false;

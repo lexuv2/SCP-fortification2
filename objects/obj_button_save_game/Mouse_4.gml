@@ -13,6 +13,8 @@ ds_map_add(pmap,"weapon",obj_player.weapon.object_index);
 
 
 ds_map_add(bygmap,"player",json_encode(pmap));
+ds_map_add(bygmap,"room",room)
+
 
 var f = json_encode(bygmap);
 
