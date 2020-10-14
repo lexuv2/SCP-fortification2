@@ -28,8 +28,8 @@ draw_sprite_ext(spr_hp_and_stamina,0,100,960,1,1,0,c_white,1)
 draw_set_alpha(1)
 
 
-draw_sprite_ext(spr_warhead,0,0,128+64,1,1,0,c_white,1)
-draw_text(96,128+64+16,string(obj_nexus.hp)+"%")
+//draw_sprite_ext(spr_warhead,0,0,128+64,1,1,0,c_white,1)
+//draw_text(96,128+64+16,string(obj_nexus.hp)+"%")
 
 
 

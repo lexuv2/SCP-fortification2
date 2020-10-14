@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"88e64b43-538e-49ba-88a5-62feb83d7135","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88e64b43-538e-49ba-88a5-62feb83d7135","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"LayerId":{"name":"ec843763-7ac3-4650-bf12-f64307ae47ca","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"88e64b43-538e-49ba-88a5-62feb83d7135","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"LayerId":{"name":"02833144-575b-48a3-bb6e-44d6164ec08a","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"88e64b43-538e-49ba-88a5-62feb83d7135","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"LayerId":{"name":"ec843763-7ac3-4650-bf12-f64307ae47ca","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_deubg_shaodw_door","path":"sprites/spr_deubg_shaodw_door/spr_deubg_shaodw_door.yy",},"resourceVersion":"1.0","name":"88e64b43-538e-49ba-88a5-62feb83d7135","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

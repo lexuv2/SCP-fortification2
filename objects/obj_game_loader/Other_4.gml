@@ -29,7 +29,7 @@ if ((room = target_room) )
 	}
 	else
 	{
-		instance_create_layer(715,4860,"Instances_2",obj_player)
+		instance_create_layer(obj_player_spawn.x,obj_player_spawn.y,"Instances_2",obj_player)
 	}
 instance_destroy(id);
 }

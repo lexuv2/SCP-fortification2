@@ -17,3 +17,6 @@ SL_light_cast_obj( obj_map_shadow_mask, -1 );
 
 SL_light_ini_end(); // Termine l'initialisation de l'objet lumière
 
+to_x =mouse_x;
+to_y =mouse_y;
+maslo=true;
