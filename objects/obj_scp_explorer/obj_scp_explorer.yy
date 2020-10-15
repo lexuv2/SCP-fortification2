@@ -22,6 +22,8 @@
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_scp_explorer","path":"objects/obj_scp_explorer/obj_scp_explorer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":60,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_scp_explorer","path":"objects/obj_scp_explorer/obj_scp_explorer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":61,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_scp_explorer","path":"objects/obj_scp_explorer/obj_scp_explorer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_scp_explorer","path":"objects/obj_scp_explorer/obj_scp_explorer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_scp_explorer","path":"objects/obj_scp_explorer/obj_scp_explorer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

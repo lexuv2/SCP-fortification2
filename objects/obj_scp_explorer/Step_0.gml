@@ -5,34 +5,24 @@ var n = ds_list_size(entries)
 var up = focus;
 var down = n-focus;
 
+
+if state!=focus
+{
+	state+=(focus-state)/10
+}
+
+
 var midx = scr_get_screen_x() + 1920/6;
-var midy =  scr_get_screen_y()  + 1080/2;
+var midy =  state*spacing + scr_get_screen_y()  + 1080/2;
 
-if true
-{
-var ii=0
-for (var i=focus-1;i >=0 ;i--)
+
+for (var i=0;i <n ;i++)
 {
 entries[|i].selected=false;
 entries[|i].x=midx;
-entries[|i].y=midy-(ii*spacing);
-ii++;
+entries[|i].y=midy-((i+1)*spacing);
 }
 
-ii=0;
-for (var i=focus-1;i <n ;i++)
-{
-entries[|i].selected=false;
-entries[|i].x=midx;
-entries[|i].y=midy+(ii*spacing);
-ii++;
-}
-
-entries[| focus-1].x=midx
-entries[| focus-1].y=midy
 entries[| focus-1].selected=true
-}
-else
-{
-	
-}
+
+

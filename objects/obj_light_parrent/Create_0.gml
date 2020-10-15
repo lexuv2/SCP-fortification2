@@ -23,6 +23,7 @@ sl_light_power = power1
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);
 SL_light_cast_obj( obj_map_shadow_mask, -1 );
+if !doge_player
 SL_light_cast_obj( obj_player, -1 );
 //SL_light_cast_obj( obj_vehicle, -1 );
 
