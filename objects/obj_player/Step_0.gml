@@ -1,6 +1,10 @@
 /// @description 
 // Not local? Nah
 
+
+polygon = polygon_from_instance(id, image_angle);
+lighting_set_dirty(true);
+
 if(instance_exists(obj_pause))exit;
 
 

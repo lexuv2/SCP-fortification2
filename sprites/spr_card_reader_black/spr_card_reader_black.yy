@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 23,
-  "bbox_top": 0,
-  "bbox_bottom": 17,
+  "bbox_left": 48,
+  "bbox_right": 79,
+  "bbox_top": 64,
+  "bbox_bottom": 127,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 24,
-  "height": 18,
+  "width": 128,
+  "height": 192,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"53537eb2-4fb8-47b7-ae8c-72932ec15166","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"53537eb2-4fb8-47b7-ae8c-72932ec15166","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"LayerId":{"name":"bdfe809a-3904-4c3c-bea6-288fec6afb54","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_card_reader_black","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"resourceVersion":"1.0","name":"53537eb2-4fb8-47b7-ae8c-72932ec15166","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9e6e6e55-b069-4203-a500-e9743d6728d5","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9e6e6e55-b069-4203-a500-e9743d6728d5","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"LayerId":{"name":"48faf9e1-20e9-4dd8-81c3-bf59b572fc78","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_card_reader_black","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"resourceVersion":"1.0","name":"9e6e6e55-b069-4203-a500-e9743d6728d5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_card_reader_black","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1d9e5371-f1d9-4a9e-80e9-e3b0342a4deb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"53537eb2-4fb8-47b7-ae8c-72932ec15166","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e04438fb-9b1c-4ba7-8ba2-00c161d19530","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9e6e6e55-b069-4203-a500-e9743d6728d5","path":"sprites/spr_card_reader_black/spr_card_reader_black.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bdfe809a-3904-4c3c-bea6-288fec6afb54","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"48faf9e1-20e9-4dd8-81c3-bf59b572fc78","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "doors",

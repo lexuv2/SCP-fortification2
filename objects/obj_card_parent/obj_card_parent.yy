@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_door_1",
-    "path": "sprites/spr_door_1/spr_door_1.yy",
+    "name": "spr_card_security",
+    "path": "sprites/spr_card_security/spr_card_security.yy",
   },
   "solid": false,
   "visible": true,

@@ -10,8 +10,7 @@ draw_text(64+16,128+16,obj_player.weapon.mag_ammo)
 }
 
 
-draw_sprite_ext(spr_peanut,0,32,32,1,1,0,c_white,1)
-draw_text(96,16,int64(oController.money))
+
 
 
 draw_set_alpha(0.6)

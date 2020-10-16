@@ -1,22 +1,9 @@
-SL_light_ini_begin(); // Commence l'initialisation de l'objet lumière
+/// @description Insert description here
+// You can write your code in this editor
 
-sl_light_texture = spr_light02;  // Index de la texture de lumière
-sl_light_angle   = image_angle;  // Angle de la texture de lumière
-sl_light_color   = make_color_rgb(255,212,138);      // Couleur de la lumière
-sl_light_power   = 0;            // Puissance de la lumière
-sl_light_shadowsharpness = 0.1; // Facteur de dureté des ombres
-dist = 30
-sl_light_xscale = 3
-sl_light_yscale = 3
-sl_light_shadowfactor = 1.005
-sl_light_power_override = 0;
-// Liste des objets projetant une ombre
-// SL_light_cast_obj(obj,mask);
-
-SL_light_cast_obj( obj_map_shadow_mask, -1 );
-
-SL_light_ini_end(); // Termine l'initialisation de l'objet lumière
+// Inherit the parent event
+event_inherited();
 
 to_x =mouse_x;
 to_y =mouse_y;
-maslo=true;
+sprite_index=noone

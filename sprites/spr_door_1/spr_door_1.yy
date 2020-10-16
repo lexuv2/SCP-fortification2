@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 22,
-  "bbox_right": 89,
-  "bbox_top": 20,
-  "bbox_bottom": 133,
+  "bbox_left": 12,
+  "bbox_right": 115,
+  "bbox_top": 18,
+  "bbox_bottom": 173,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 128,
-  "height": 140,
+  "height": 192,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"522bb40a-740d-4083-a0c9-fa3017303cf9","path":"sprites/spr_door_1/spr_door_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"522bb40a-740d-4083-a0c9-fa3017303cf9","path":"sprites/spr_door_1/spr_door_1.yy",},"LayerId":{"name":"51a88997-7466-46f1-affc-eed6bebc821c","path":"sprites/spr_door_1/spr_door_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},"resourceVersion":"1.0","name":"522bb40a-740d-4083-a0c9-fa3017303cf9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b80e3a2a-6dfc-4a01-97fe-928aab9a662d","path":"sprites/spr_door_1/spr_door_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b80e3a2a-6dfc-4a01-97fe-928aab9a662d","path":"sprites/spr_door_1/spr_door_1.yy",},"LayerId":{"name":"9bc86442-999d-45c5-9396-fb24834a0bd6","path":"sprites/spr_door_1/spr_door_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},"resourceVersion":"1.0","name":"b80e3a2a-6dfc-4a01-97fe-928aab9a662d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"defd8e45-7bad-4f29-8da1-e89c3c667e5d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"522bb40a-740d-4083-a0c9-fa3017303cf9","path":"sprites/spr_door_1/spr_door_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6c793b9c-e8ef-42bf-ac1a-e5cf7d292fcb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b80e3a2a-6dfc-4a01-97fe-928aab9a662d","path":"sprites/spr_door_1/spr_door_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -55,7 +55,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 6,
+    "yorigin": -18,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_door_1","path":"sprites/spr_door_1/spr_door_1.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"51a88997-7466-46f1-affc-eed6bebc821c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9bc86442-999d-45c5-9396-fb24834a0bd6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "doors",

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-spoty=scr_get_screen_y()+scr_get_view_height()-30;
+spoty=scr_get_screen_y()+scr_get_view_height()-60;
 if state==card_state.hold{
 		x=mouse_x-64;
 	y=mouse_y-64;
@@ -56,7 +56,7 @@ else
 if state==card_state.folded
 yoff=0
 
-y=scr_get_screen_y()+scr_get_view_height()-30-yoff;
+y=scr_get_screen_y()+scr_get_view_height()-60-yoff;
 spoty=y+yoff;
 
 
