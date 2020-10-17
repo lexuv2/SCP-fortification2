@@ -7,7 +7,7 @@ if (_coll) and point_distance(x,y,obj_player.x,obj_player.y) <actvation_distance
         if _coll.state == card_state.going_back {
             if state = door_state.closed {
 
-                seq = layer_sequence_create("instances_3", x + 92, y + 62, seq_card_accepted)
+                seq = layer_sequence_create("instances_3", x , y , seq_card_accepted)
                 state = door_state.reading_card
                 alarm_set(1, 180)
             }

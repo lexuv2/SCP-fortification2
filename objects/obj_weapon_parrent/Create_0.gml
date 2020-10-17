@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this edi
 
-
+global.mouse_hover=false;
 
 croshair_sprite = spr_croshair
 

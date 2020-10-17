@@ -21,5 +21,5 @@ reading_card,
    seq=0;
    state = door_state.closed
   frame=0;
-   open_time=30;
+   open_time=60;
  xoff = 0

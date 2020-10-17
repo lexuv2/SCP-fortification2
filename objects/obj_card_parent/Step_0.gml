@@ -3,8 +3,8 @@
 
 spoty=scr_get_screen_y()+scr_get_view_height()-60;
 if state==card_state.hold{
-		x=mouse_x-64;
-	y=mouse_y-64;
+		x=mouse_x+moffx;
+	y=mouse_y+moffy;
 	exit;
 }
 

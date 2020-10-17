@@ -20,6 +20,8 @@ frame =0;
 unfold_time =20;
 yoff=0;
 
+moffx=0;
+moffy=0;
 
 f_depth =0;
 mouse_on = false;

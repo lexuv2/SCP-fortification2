@@ -11,4 +11,9 @@ else
 var fd = 2137;
 
 if (mouse_on) and (fd>f_depth) 
+{
 	state=card_state.hold
+	global.mouse_hover=true;
+	moffx=x-mouse_x;
+	moffy=y-mouse_y;
+}
