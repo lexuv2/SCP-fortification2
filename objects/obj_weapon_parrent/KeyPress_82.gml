@@ -22,7 +22,7 @@ layer_sequence_create(layer_get_name(layer),x,y,reload_sequence)
 
 
 tick=reload_time_sec*60;
-if mag_size > oController.ammo
+if mag_size > oController.ammo and reload_progress > 0
 {
 	reload_progress=reload_time_sec*60;
 mag_ammo=oController.ammo

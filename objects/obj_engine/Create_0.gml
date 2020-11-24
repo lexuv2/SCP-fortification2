@@ -57,8 +57,9 @@ SL_sprite_set_ambient(spr_shadow_mask);
 //SL_global_cast_obj(5,-1,-1,0,0); // Layer vide pouvant être utilisé pour l'affichage des nuages (obj_cloud)
 
 SL_add_light(obj_light_torch);
-SL_add_light(obj_light01);
+SL_add_light(obj_light_parrent);
 SL_add_light(obj_light02)
+SL_add_light(obj_light_muzzle_flash)
 global.sl_ambient_light=0;
 
 SL_ToD_default();    // Initialisation du ToD

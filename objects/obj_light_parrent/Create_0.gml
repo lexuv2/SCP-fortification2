@@ -1,5 +1,5 @@
 mode = 0;
-alarm[0] = 5;
+alarm[0] = 3;
 
 // Variables utilisées dans Step
 time = 0;
@@ -8,12 +8,12 @@ l = 0;
 d = 0;
 
 SL_light_ini_begin(); // Commence l'initialisation de l'objet lumière
-
 sl_light_texture = spr_light01;  // Index de la texture de lumière
 sl_light_xscale  =scale;         // Facteurs d'étirement de la lumière
 sl_light_yscale  = scale;
 sl_light_color   = color;        // Couleur de la lumière
-sl_light_shadowsharpness = 1; // Facteur de dureté des ombres
+sl_light_shadowsharpness = 1; // Fac
+//teur de dureté des ombres
 
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);
@@ -28,7 +28,6 @@ sl_light_shadowsharpness = 1; // Facteur de dureté des ombres
 //SL_light_cast_obj( obj_bush01,  -1 );
 //SL_light_cast_obj( obj_npc,     spr_character_smask );
 SL_light_cast_obj( obj_map_shadow_mask, -1 );
-SL_light_cast_obj( obj_player, -1 );
 
 
 
