@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_card_security",
-    "path": "sprites/spr_card_security/spr_card_security.yy",
+    "name": "spr_card_scientist",
+    "path": "sprites/spr_card_scientist/spr_card_scientist.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,6 +28,7 @@
     {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":56,"eventType":6,"collisionObjectId":null,"parent":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_card_parent","path":"objects/obj_card_parent/obj_card_parent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":7,"value":"security_colors.scientist","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"security_level","tags":[],"resourceType":"GMObjectProperty",},

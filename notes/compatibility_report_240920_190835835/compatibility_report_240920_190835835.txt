@@ -84,7 +84,7 @@ Converted builtin - line 9: view_yview -> __view_get( e__VW.YView, 0 )
 Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
 Converted builtin - line 9: view_hview -> __view_get( e__VW.HView, 0 )
 
-Converting GML script: ${project_dir}\objects\obj_light_parrent\Step_0.gml
+Converting GML script: ${project_dir}\objects\obj_light01\Step_0.gml
 Converted builtin - line 154: view_yview[0] -> __view_get( e__VW.YView, 0 )
 Converted builtin - line 154: view_hview[0] -> __view_get( e__VW.HView, 0 )
 

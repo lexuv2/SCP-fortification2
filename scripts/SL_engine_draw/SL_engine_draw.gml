@@ -11,7 +11,6 @@ function SL_engine_draw() {
 	// Affichage des buffers
 	if surface_exists(sl_buffer_surface1)
 	{
-	
 	    draw_set_blend_mode_ext(bm_dest_color,bm_zero);
 	    draw_surface_ext(sl_buffer_surface1,__view_get( e__VW.XView, global.sl_viewid )-sl_buffer_xmargin-sl_view_xspeed,__view_get( e__VW.YView, global.sl_viewid )-sl_buffer_ymargin-sl_view_yspeed,1/sl_buffer_texturesize,1/sl_buffer_texturesize,0,c_white,1);
 	    draw_set_blend_mode(bm_add);

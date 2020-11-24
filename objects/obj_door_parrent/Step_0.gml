@@ -24,8 +24,8 @@ if (_coll) and point_distance(x,y,obj_player.x,obj_player.y) <actvation_distance
 
 
 
-coll.x=x+xoff+24
-
+coll.x=x+xoff
+shd.x=x+xoff
 if state=door_state.reading_card exit;
 if state==door_state.opening
 {

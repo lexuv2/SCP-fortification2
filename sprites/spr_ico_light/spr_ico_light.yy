@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"360871ce-23af-4308-9610-d1d044a89cfa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Aux",
-    "path": "folders/Sprites/Aux.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_ico_light",

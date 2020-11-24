@@ -83,9 +83,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_map_shadow_mask","path":"objects/obj_map_shadow_mask/obj_map_shadow_mask.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":0.34375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":3690.0,"resourceVersion":"1.0","name":"inst_1257DCAA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_map_shadow_mask","path":"objects/obj_map_shadow_mask/obj_map_shadow_mask.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":0.34375,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":3690.0,"resourceVersion":"1.0","name":"inst_668F6E6C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":false,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":2,"gridY":2,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Shadow_masks","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":4800.0,"resourceVersion":"1.0","name":"inst_2CB1F1BF","tags":[],"resourceType":"GMRInstance",},
-      ],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Lights","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[],"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Lights","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_glock","path":"objects/obj_glock/obj_glock.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":-320.0,"resourceVersion":"1.0","name":"inst_2CEE1580","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_particle_controller","path":"objects/obj_particle_controller/obj_particle_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":64.0,"resourceVersion":"1.0","name":"inst_3D458337","tags":[],"resourceType":"GMRInstance",},
@@ -1155,7 +1153,6 @@
     {"name":"inst_2BE423C0","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_7860E054","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_2D5298DC","path":"rooms/rmGame/rmGame.yy",},
-    {"name":"inst_2CB1F1BF","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_60AFA884","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_3D9DA43","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_76EE9D3A","path":"rooms/rmGame/rmGame.yy",},

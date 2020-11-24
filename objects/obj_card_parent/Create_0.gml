@@ -9,6 +9,9 @@ enum card_state{
  hold,
 }
 
+alarm[0]=2;
+
+
 global.any_card_in_hand=false;
 
 going_back_time=0;
@@ -17,7 +20,7 @@ spotx=0;
 spoty=0;
 state = card_state.folded
 frame =0;
-unfold_time =20;
+unfold_time =15;
 yoff=0;
 
 moffx=0;

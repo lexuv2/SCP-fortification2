@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 52,
-  "bbox_right": 203,
-  "bbox_top": 16,
-  "bbox_bottom": 235,
+  "bbox_left": 0,
+  "bbox_right": 97,
+  "bbox_top": 0,
+  "bbox_bottom": 131,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 256,
-  "height": 256,
+  "width": 98,
+  "height": 132,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"499a4245-59e3-48c5-9bfd-381a3971c54c","path":"sprites/spr_card_security/spr_card_security.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"499a4245-59e3-48c5-9bfd-381a3971c54c","path":"sprites/spr_card_security/spr_card_security.yy",},"LayerId":{"name":"47bd8ce9-d38f-4559-97b8-774830e79cc2","path":"sprites/spr_card_security/spr_card_security.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_card_security","path":"sprites/spr_card_security/spr_card_security.yy",},"resourceVersion":"1.0","name":"499a4245-59e3-48c5-9bfd-381a3971c54c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"663dc23a-7273-4525-b053-899fc53a2fba","path":"sprites/spr_card_security/spr_card_security.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"663dc23a-7273-4525-b053-899fc53a2fba","path":"sprites/spr_card_security/spr_card_security.yy",},"LayerId":{"name":"6c9dde2a-9e56-45ad-935e-a36a31767218","path":"sprites/spr_card_security/spr_card_security.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_card_security","path":"sprites/spr_card_security/spr_card_security.yy",},"resourceVersion":"1.0","name":"663dc23a-7273-4525-b053-899fc53a2fba","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_card_security","path":"sprites/spr_card_security/spr_card_security.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ee991510-8b55-4e41-aff2-4cfd69cd528a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"499a4245-59e3-48c5-9bfd-381a3971c54c","path":"sprites/spr_card_security/spr_card_security.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fec35f10-e063-4c18-a597-64b8a4d11257","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"663dc23a-7273-4525-b053-899fc53a2fba","path":"sprites/spr_card_security/spr_card_security.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"47bd8ce9-d38f-4559-97b8-774830e79cc2","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6c9dde2a-9e56-45ad-935e-a36a31767218","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Cards",

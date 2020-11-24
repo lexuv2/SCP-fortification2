@@ -20,7 +20,7 @@ function __global_object_depths() {
 	global.__objectDepths[12] = -850; // obj_fire
 	global.__objectDepths[13] = 0; // obj_ball
 	global.__objectDepths[14] = -10; // obj_light_torch
-	global.__objectDepths[15] = -1001; // obj_light_parrent
+	global.__objectDepths[15] = -1001; // obj_light01
 	global.__objectDepths[16] = 0; // obj_light02
 	global.__objectDepths[17] = -1500; // obj_control
 	global.__objectDepths[18] = -1000; // obj_engine
@@ -43,7 +43,7 @@ function __global_object_depths() {
 	global.__objectNames[12] = "obj_fire";
 	global.__objectNames[13] = "obj_ball";
 	global.__objectNames[14] = "obj_light_torch";
-	global.__objectNames[15] = "obj_light_parrent";
+	global.__objectNames[15] = "obj_light01";
 	global.__objectNames[16] = "obj_light02";
 	global.__objectNames[17] = "obj_control";
 	global.__objectNames[18] = "obj_engine";
