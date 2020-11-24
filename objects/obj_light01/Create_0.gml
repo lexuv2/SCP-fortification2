@@ -1,5 +1,5 @@
 mode = 0;
-alarm[0] = 1;
+alarm[0] = 5;
 
 // Variables utilisées dans Step
 time = 0;
@@ -29,27 +29,7 @@ sl_light_shadowsharpness = 1; // Facteur de dureté des ombres
 //SL_light_cast_obj( obj_npc,     spr_character_smask );
 SL_light_cast_obj( obj_map_shadow_mask, -1 );
 SL_light_cast_obj( obj_player, -1 );
-with(obj_map_shadow_mask_low)
-{
-	if (other.y<y)  
-	{
-		with(other.id)
-		{
-		SL_light_cast_obj(other.id,-1);
-		}
-	}
-}
 
-with(obj_map_shadow_mask_high)
-{
-	if (other.y>y)  
-	{
-		with(other.id)
-		{
-		SL_light_cast_obj(other.id,-1);
-		}
-	}
-}
 
 
 
