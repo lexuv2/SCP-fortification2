@@ -2,7 +2,7 @@
 // You can write your code in this editor
 outline_init()
 coll = instance_create_layer(x+12,y,"collisions",obj_collsision)
-shd = instance_create_layer(x+12,y,"shadow_masks",obj_map_shadow_mask)
+shd = instance_create_layer(x+12,y,"shadow_masks",obj_useless)
 
 
 actvation_distance = 250;

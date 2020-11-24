@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_debug_shadow_low",
-    "path": "sprites/spr_debug_shadow_low/spr_debug_shadow_low.yy",
+    "name": "spr_debug_shadow",
+    "path": "sprites/spr_debug_shadow/spr_debug_shadow.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_map_shadow_mask","path":"objects/obj_map_shadow_mask/obj_map_shadow_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_map_shadow_mask","path":"objects/obj_map_shadow_mask/obj_map_shadow_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

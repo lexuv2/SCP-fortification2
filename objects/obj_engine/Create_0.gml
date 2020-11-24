@@ -59,6 +59,7 @@ SL_sprite_set_ambient(spr_shadow_mask);
 SL_add_light(obj_light_torch);
 SL_add_light(obj_light01);
 SL_add_light(obj_light02)
+global.sl_ambient_light=0;
 
 SL_ToD_default();    // Initialisation du ToD
 SL_set_time(0);   // Initialisation de l'heure

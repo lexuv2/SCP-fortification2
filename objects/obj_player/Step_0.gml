@@ -6,6 +6,7 @@
 if(instance_exists(obj_pause))exit;
 
 
+
 if hp<hp_before
 whiten=true
 else

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_debug_shadow_low",
-    "path": "sprites/spr_debug_shadow_low/spr_debug_shadow_low.yy",
+    "name": "spr_debug_shadow_high",
+    "path": "sprites/spr_debug_shadow_high/spr_debug_shadow_high.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_map_shadow_mask","path":"objects/obj_map_shadow_mask/obj_map_shadow_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_map_shadow_mask","path":"objects/obj_map_shadow_mask/obj_map_shadow_mask.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_map_shadow_mask_high","path":"objects/obj_map_shadow_mask_high/obj_map_shadow_mask_high.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects/map_elements.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_map_shadow_mask",
+  "name": "obj_map_shadow_mask_high",
   "tags": [],
   "resourceType": "GMObject",
 }
