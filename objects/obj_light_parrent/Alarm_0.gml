@@ -5,6 +5,7 @@ with(obj_map_shadow_mask_low)
 		with(other.id)
 		{
 		SL_light_cast_obj(other.id,-1);
+		
 		}
 	}
 }
