@@ -6,12 +6,12 @@
 
 //}
 
-if (other.is_local) and (keyboard_check_pressed(ord("F"))) and (!in_hands)
+if (other.is_local) and (keyboard_check_pressed(ord("F"))) and (!in_hands) 
 {
 	
 	
-
-		if other.weapon exit
+	if (other.weapon!=-1)
+	exit;
 
 
 		var buffer = buffer_create(5, buffer_fixed, 1);

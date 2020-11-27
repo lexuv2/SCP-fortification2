@@ -328,8 +328,8 @@ else if (type == network_type_data) {
 		with(obj_player)
 		{
 				if (pID == playerID) {
-				weapon.in_hands=-1;
-				weapon=-1;
+				//weapon.in_hands=-1;
+				//weapon=-1;
 				
 				
 
