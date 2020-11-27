@@ -3,6 +3,8 @@
 if sprite_exists(shooting_anim)
 sprite_index=shooting_anim
 
+var casing = instance_create_layer(x,y,"layer_weapons",obj_casing)
+casing.direction=(image_angle)+(110 *image_yscale)
 if sequence
 {
 	layer_sequence_destroy(sequence)

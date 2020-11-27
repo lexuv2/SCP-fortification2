@@ -559,7 +559,6 @@
     {"folderPath":"folders/Scripts/Notes/Fonts/rousr (required)/rousr_core.yy","order":0,"resourceVersion":"1.0","name":"rousr_core","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Notes/Fonts/exCamera_DEMO.yy","order":4,"resourceVersion":"1.0","name":"exCamera_DEMO","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects.yy","order":7,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Objects/imguigml (required).yy","order":89,"resourceVersion":"1.0","name":"imguigml (required)","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/example (not required).yy","order":12,"resourceVersion":"1.0","name":"example (not required)","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/example (not required)/tests.yy","order":1,"resourceVersion":"1.0","name":"tests","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/intros/intro_scp_106.yy","order":1,"resourceVersion":"1.0","name":"intro_scp_106","tags":[],"resourceType":"GMFolder",},

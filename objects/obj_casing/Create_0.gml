@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-path_start(path_casing,10,path_action_stop,false)
+image_angle+=irandom_range(-100,100)
+speed=irandom_range(25,35)
+
+
 alpha = 2
