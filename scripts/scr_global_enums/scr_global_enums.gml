@@ -10,6 +10,10 @@ enum security_colors
 	private = c_green,
 }
 
+
+
+
+
 function scr_global_enums(){
 
 }
