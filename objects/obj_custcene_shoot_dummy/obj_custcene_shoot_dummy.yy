@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_waza",
-    "path": "sprites/spr_waza/spr_waza.yy",
+    "name": "spr_training_dummy",
+    "path": "sprites/spr_training_dummy/spr_training_dummy.yy",
   },
   "solid": false,
   "visible": true,
@@ -14,7 +14,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -24,20 +24,19 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"scp_waza","path":"objects/scp_waza/scp_waza.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_custcene_shoot_dummy","path":"objects/obj_custcene_shoot_dummy/obj_custcene_shoot_dummy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"hp","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"move_speed","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"money_gain","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"30","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"use_path","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "enemies",
-    "path": "folders/Objects/enemies.yy",
+    "name": "cutscenes_lit",
+    "path": "folders/Objects/cutscenes_lit.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scp_waza",
+  "name": "obj_custcene_shoot_dummy",
   "tags": [],
   "resourceType": "GMObject",
 }

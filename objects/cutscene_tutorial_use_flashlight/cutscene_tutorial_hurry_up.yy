@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_cutscene_hitbox",
+    "path": "sprites/spr_cutscene_hitbox/spr_cutscene_hitbox.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"cutscene_tutorial_hurry_up","path":"objects/cutscene_tutorial_hurry_up/cutscene_tutorial_hurry_up.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "SCP fortification2",
-    "path": "SCP fortification2.yyp",
+    "name": "cutscenes_lit",
+    "path": "folders/Objects/cutscenes_lit.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object146",
+  "name": "cutscene_tutorial_hurry_up",
   "tags": [],
   "resourceType": "GMObject",
 }
