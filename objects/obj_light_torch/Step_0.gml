@@ -4,8 +4,8 @@ SL_light_ini_begin();
 sl_light_active = true;
 var _dir = point_direction(obj_player.x,obj_player.y,mouse_x,mouse_y);
 
-sl_light_x      = parent.x + lengthdir_x(70,_dir);
-sl_light_y      = parent.y + lengthdir_y(70,_dir);
+sl_light_x      = parent.x //+ lengthdir_x(70,_dir);
+sl_light_y      = parent.y //+ lengthdir_y(70,_dir);
 sl_light_angle  = _dir;
 
 
@@ -17,6 +17,7 @@ sl_light_color   = c_white;      // Couleur de la lumière
 sl_light_shadowsharpness = 1; // Facteur de dureté des ombres
 sl_light_xscale = 5;
 sl_light_yscale = 5;
+sl_light_refreshrate=60;
 SL_light_cast_obj(obj_map_shadow_mask,-1)
 
 
