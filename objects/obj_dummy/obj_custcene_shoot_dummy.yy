@@ -1,0 +1,42 @@
+{
+  "spriteId": {
+    "name": "spr_training_dummy",
+    "path": "sprites/spr_training_dummy/spr_training_dummy.yy",
+  },
+  "solid": false,
+  "visible": true,
+  "spriteMaskId": null,
+  "persistent": false,
+  "parentObjectId": {
+    "name": "obj_enemy_parrent",
+    "path": "objects/obj_enemy_parrent/obj_enemy_parrent.yy",
+  },
+  "physicsObject": false,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsGroup": 1,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsShapePoints": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_custcene_shoot_dummy","path":"objects/obj_custcene_shoot_dummy/obj_custcene_shoot_dummy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"move_speed","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"use_path","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"objectId":{"name":"obj_enemy_parrent","path":"objects/obj_enemy_parrent/obj_enemy_parrent.yy",},"value":"False","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
+  "parent": {
+    "name": "cutscenes_lit",
+    "path": "folders/Objects/cutscenes_lit.yy",
+  },
+  "resourceVersion": "1.0",
+  "name": "obj_custcene_shoot_dummy",
+  "tags": [],
+  "resourceType": "GMObject",
+}

@@ -12,7 +12,7 @@ hp=oController.start_hp+math_get_epsilon();
 hp-=math_get_epsilon()
 hp = 10
 player_name = "JD";
-
+glowsticks = 5;
 is_player_initalized = 0;
 
 maxhp = hp;

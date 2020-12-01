@@ -26,3 +26,4 @@ sl_light_texture = spr_light01;  // Index de la texture de lumière
 sl_light_xscale  =scale;         // Facteurs d'étirement de la lumière
 sl_light_yscale  = scale;
 sl_light_color   = color;        // Couleur de la lumière
+//sl_light_shadowfactor=1.1

@@ -12,7 +12,6 @@ draw_text(64+16,128+16,obj_player.weapon.mag_ammo)
 
 
 
-
 draw_set_alpha(0.6)
 var hpx=100;
 var hpy=960;
@@ -24,6 +23,13 @@ draw_sprite_ext(spr_hp_and_stamina,0,100,960,1,1,0,c_white,1)
 draw_healthbar(hpx,hpy,hpx+sprite_get_width(spr_hp_and_stamina)-2,hpy+30,(obj_player.hp/obj_player.maxhp)*100,c_black,hpcol,hpcol,90,false,false)
 draw_healthbar(hpx,hpy+30,hpx+sprite_get_width(spr_hp_and_stamina)-2,hpy+60-2,(obj_player.stamina/obj_player.maxstamina)*100,c_black,stamcol,stamcol,90,false,false)
 draw_sprite_ext(spr_hp_and_stamina,0,100,960,1,1,0,c_white,1)
+
+for (var i =0;i<obj_player.glowsticks;i++)
+{
+	draw_sprite(spr_glowstick,0,hpx+15+i*30, hpy-30)
+}
+
+
 draw_set_alpha(1)
 
 
