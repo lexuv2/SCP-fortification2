@@ -9,6 +9,10 @@ slowed = false
 ID = -1;
 
 speed=move_speed;
+if teleports
+speed=0;
+
+
 
 if (oController.is_server)
 {

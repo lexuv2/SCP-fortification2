@@ -32,8 +32,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "menu_buttons",
+    "path": "folders/Objects/UI/menu_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_button_parent",

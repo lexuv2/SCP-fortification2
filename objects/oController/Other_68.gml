@@ -36,7 +36,7 @@ if (type == network_type_connect) {
 
 	
 	// Create player instance
-	var plr = instance_create_layer(obj_nexus.x,obj_nexus.y, "Instances", obj_player);
+	var plr = instance_create_layer(2500,800, "Instances", obj_player);
 	plr.playerID = ds_list_size(clients);
 	plr.is_local = false;
 	
@@ -90,12 +90,13 @@ else if (type == network_type_data) {
 	if (data == DATA.INIT_DATA) {
 		var count = buffer_read(buffer, buffer_u8);
 		
-		// Set your player's ID
+		instance_create_layer(2500,800,"Instances_2",obj_player)
+		// Set your player's ID/
 		obj_player.playerID = count;
 		
 		// Create other players
 		for (var i=0; i < count; i++) {
-			var plr = instance_create_layer(random(room_width), random(room_height), "Instances", obj_player);
+			var plr = instance_create_layer(2500,800, "Instances", obj_player);
 			plr.playerID = i;
 			plr.is_local = false;
 		}
@@ -179,8 +180,11 @@ else if (type == network_type_data) {
 		
 		with (obj_player) {
 			if (pID == playerID) {
-				image_angle = buffer_read(buffer, buffer_s16);
-
+				if (!is_local)
+				{
+				
+				player_rot = buffer_read(buffer, buffer_s16);
+				}
 			}
 		}
 		
@@ -258,6 +262,7 @@ else if (type == network_type_data) {
 			if (pID == playerID) {
 				with(weapon)
 				{
+					if !in_hands.is_local
 					event_user(1)
 				}
 			}
@@ -276,6 +281,7 @@ else if (type == network_type_data) {
 		//show_message_async(_x)
 		var _inst = instance_create_layer(_x,_y,"Instances",_obj_index)
 		_inst.ID = _id
+		log("deeeeeeejna")
 		
 	}
 	// PLAYER_JOINED
@@ -286,21 +292,46 @@ else if (type == network_type_data) {
 		inst.playerID = buffer_read(buffer, buffer_u8);
 		inst.is_local = false;
 	}
+	else if (data == DATA.TOGGLE_FLASHLIGHT)
+	{
+		
+		var pID = buffer_read(buffer,buffer_u8)
+
+		with(obj_player)
+		{
+				if (pID == playerID) {
+					if !is_local
+				event_user(0)
+			}
+		}
+		server_forward(buffer);
+	}
 	else if (data == DATA.WEAPON_BOUND)
 	{
 		
 		var pID = buffer_read(buffer,buffer_u8)
 		var inst_create = buffer_read(buffer,buffer_u16)
 		var _inst = instance_create_layer(200,200,"instances_2", inst_create)
+		var _x = buffer_read(buffer,buffer_u16)
+		var _y = buffer_read(buffer,buffer_u16)
+		
+		
+		var coll = collision_rectangle(_x-1,_y-1,_x+1,_y+1,inst_create,false,true) 
+		if coll
+		{
+		instance_destroy(coll)
+		log("delet")
+		log("papai ")
+		}
+		
+		
 		with(obj_player)
 		{
 				if (pID == playerID) {
 				weapon=_inst;
 				_inst.in_hands=id;
 				
-				var coll = collision_rectangle(x-10,y-10,x+10,y+10,inst_create,false,true) 
-				if coll
-				instance_destroy(coll)
+				
 				
 
 			}
@@ -328,8 +359,8 @@ else if (type == network_type_data) {
 		with(obj_player)
 		{
 				if (pID == playerID) {
-				//weapon.in_hands=-1;
-				//weapon=-1;
+				weapon.in_hands=-1;
+				weapon=-1;
 				
 				
 

@@ -33,7 +33,8 @@ reload_progress--;
 if (in_hands) {
     x = in_hands.x - offset;
     y = in_hands.y;
-    image_angle = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
+	
+    image_angle = in_hands.player_rot
     if (image_angle > 90 and image_angle < 270) {
         image_xscale = 1;
         image_yscale = -1;
@@ -45,11 +46,14 @@ if (in_hands) {
     if rec_anim {
         offset += 1;
         x = in_hands.x;
-    }
-
+    }	
+	
+	
+if in_hands.is_local
+{
     if (image_angle < 180) layer_depth("layer_weapons" ,layer_get_depth("Instances_2")+1)
     else layer_depth("layer_weapons" ,layer_get_depth("Instances_2")-1)
-
+}
 
 }
 

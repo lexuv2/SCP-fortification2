@@ -27,7 +27,7 @@ ex_camera_shake("main",recoil/2000,recoil/2000,0,5,1,0,0)
 
 rec_anim=true
 
-var dir = point_direction(x,y,mouse_x,mouse_y)
-var len = obj_player.sprite_height/2+5
+var dir = in_hands.player_rot
+var len = in_hands.sprite_height/2+5
 var inst=instance_create_layer(x+lengthdir_x(len,dir),y+lengthdir_y(len,dir),"Lights",obj_light_muzzle_flash)
 

@@ -14,6 +14,8 @@ sl_light_yscale  = scale;
 sl_light_color   = color;        // Couleur de la lumière
 sl_light_shadowsharpness = 1; // Fac
 //teur de dureté des ombres
+sl_light_power=0.4
+sl_light_ambientpower=0
 
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);

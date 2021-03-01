@@ -4,7 +4,7 @@ inst = instance_create_layer(x,y,"Lights",obj_light_parrent)
 
 inst.color=c_green
 inst.scale=3
-inst.sl_light_power=0.2
+inst.sl_light_power=0.35
 inst.player_cast_shadow=0;
 
 

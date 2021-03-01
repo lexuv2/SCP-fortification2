@@ -7,6 +7,9 @@ sl_light_power   = 0.001;            // Puissance de la lumière
 sl_light_shadowsharpness = 1; // Facteur de dureté des ombres
 sl_light_xscale = 5;
 sl_light_yscale = 5;
+sl_light_ambientpower=-1
+
+
 // Liste des objets projetant une ombre
 // SL_light_cast_obj(obj,mask);
 //SL_light_cast_obj( obj_crate01, -1 );

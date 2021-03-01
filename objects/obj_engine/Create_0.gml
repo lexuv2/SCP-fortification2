@@ -4,7 +4,8 @@ SL_engine_ini_begin(); // Commence l'initialisation du système
 global.sl_viewid  = 0;    // Index de la view dans laquelle afficher les effets
 sl_buffer_xmargin = 8;    // Marges du buffer
 sl_buffer_ymargin = 8;
-sl_maxexposure    = 0.45; // Facteur maximal de saturation des lumières
+sl_maxexposure    = 0.60; // Facteur maximal de saturation des lumières
+sl_tod_active=false
 
 // Variables relatives aux ombres solaires
 sl_sunshadows_active      = false; // Active le rendu des ombres du soleil
@@ -58,11 +59,11 @@ SL_sprite_set_ambient(spr_shadow_mask);
 
 SL_add_light(obj_light_torch);
 SL_add_light(obj_light_parrent);
-SL_add_light(obj_light02)
 SL_add_light(obj_light_muzzle_flash)
 global.sl_ambient_light=0;
 
 SL_ToD_default();    // Initialisation du ToD
 SL_set_time(0);   // Initialisation de l'heure
+
 SL_engine_ini_end(); // Termine l'initialisation du système
 

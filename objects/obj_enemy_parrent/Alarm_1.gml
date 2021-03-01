@@ -34,13 +34,21 @@ exit
 	mp_grid_path(global.grid,path,x,y,movetox,movetoy,true)
 	
 	
-	var nextPathPointX = path_get_point_x(path, clamp(move_speed,1,path_get_number(path)));
-	var nextPathPointY = path_get_point_y(path, clamp(move_speed,1,path_get_number(path)));
+	var nextPathPointX = path_get_point_x(path, clamp(move_speed,0,path_get_number(path)));
+	var nextPathPointY = path_get_point_y(path, clamp(move_speed,0,path_get_number(path)));
 	
-	if teleports
+	if teleports and (nextPathPointX!=0 and nextPathPointY!=0 )
 {
 	x=nextPathPointX
 	y=nextPathPointY
+	if (instance_exists(obj_light_torch))
+	{
+	obj_light_torch.sl_light_power=-1000;
+	
+	}	
+	with(obj_light_parrent){
+		sl_light_power=0;
+	}
 }
 	
 

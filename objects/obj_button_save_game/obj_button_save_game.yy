@@ -31,8 +31,8 @@
     {"propertyId":{"name":"text","path":"objects/obj_button_parent/obj_button_parent.yy",},"objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"\"Save Game\"","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "menu_buttons",
+    "path": "folders/Objects/UI/menu_buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_button_save_game",

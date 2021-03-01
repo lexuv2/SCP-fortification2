@@ -12,7 +12,9 @@ sl_light_texture = spr_light01;
 sl_light_xscale  =scale;         
 sl_light_yscale  = scale;
 sl_light_color   = color;        
-
+sl_light_power = light_power;
+sl_light_ambientpower=-1
+sl_light_shadowfactor=1.01
 SL_light_cast_obj( obj_map_shadow_mask, -1 );
 
 

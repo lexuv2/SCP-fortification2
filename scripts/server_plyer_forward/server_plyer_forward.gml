@@ -9,6 +9,7 @@ function server_plyer_forward(argument0) {
 		
 			// Send
 			network_send_packet(soc, buffer, buffer_get_size(buffer));
+			log("sendingbuffer"+string(soc))
 		}
 
 

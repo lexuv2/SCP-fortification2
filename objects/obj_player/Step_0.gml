@@ -1,20 +1,24 @@
 /// @description 
 // Not local? Nah
 
-
+tick_couter++;
+tick_couter=tick_couter%60;
 
 if(instance_exists(obj_pause))exit;
 
+if  flash_inst!=noone
+{
+flash_inst.sl_light_angle = player_rot
+flash_inst.sl_light_x = x;
+flash_inst.sl_light_y = y;
 
+}
 
 if hp<hp_before
 whiten=true
 else
 whiten=false
 hp_before=hp
-if (instance_exists(camera_target)) {
-    ex_camera_scroll_to_object("main", camera_target, 6, scr_ease_inout_sine, true);
-}
 
 
 if ((!is_player_initalized)and(oController.is_game_initalized))
@@ -42,7 +46,14 @@ if (burning)
 if (burning)
 if (burning mod 60 == 0)hp-=1;
 
-if (!is_local) exit;//UAWGA PO TYM JEST TYLKO LOCAL
+if (!is_local) exit;//UAWGA PO TYM JEST TYLKO LOCAL========================
+
+player_rot=point_direction(x,y,mouse_x,mouse_y)
+
+
+if (instance_exists(camera_target)) {
+    ex_camera_scroll_to_object("main", camera_target, 6, scr_ease_inout_sine, true);
+}
 
 //light.x=x;
 //light.y=y;
@@ -50,11 +61,12 @@ if (!is_local) exit;//UAWGA PO TYM JEST TYLKO LOCAL
 //rotation
 //image_angle = point_direction(x,y,mouse_x,mouse_y)
 
+if tick_couter%2==0
+{
 var buffer = buffer_create(4, buffer_fixed, 1);
 buffer_write(buffer, buffer_u8, DATA.PLAYER_UPDATE_ROT);
 buffer_write(buffer, buffer_u8, playerID);
-buffer_write(buffer, buffer_s16, image_angle);
-
+buffer_write(buffer, buffer_s16, player_rot);
 client_send_buffer(buffer)
 buffer_delete(buffer);
 //update hp
@@ -66,6 +78,7 @@ buffer_write(buffer, buffer_f16, maxhp);
 
 client_send_buffer(buffer)
 buffer_delete(buffer);
+}
 // Move
 var up = keyboard_check(ord("W"));
 var down = keyboard_check(ord("S"));
@@ -86,6 +99,7 @@ left = !collision_point(x-32,y,obj_collsision,true,true)
 
 if keyboard_check(vk_lshift) and stamina>0 and(up or down or right or left)
 {
+	
 y-=up*sprintSpeed
 y+=down*sprintSpeed
 x+=right*sprintSpeed
@@ -95,6 +109,7 @@ lastsprinted=0;
 }
 else
 {
+	
 y-=up*moveSpeed
 y+=down*moveSpeed
 x+=right*moveSpeed

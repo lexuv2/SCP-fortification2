@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description shooting
 // You can write your code in this editor
 
 if tick>0 and in_hands.is_local
@@ -46,8 +46,7 @@ for (var i =0;i<pellets; i++)
 	
 	// Delete buffer
 	buffer_delete(buffer);
-	if (oController.is_server)
-	{
+
 	
 	var bullet_inst = instance_create_layer(bullet_x,bullet_y,"instances",projectile);
 	bullet_inst.direction=bullet_dir;
@@ -58,7 +57,7 @@ for (var i =0;i<pellets; i++)
 	if mag_ammo==1
 	bullet_inst.damage*=2;
 	
-	}
+	
 	//spread += (irandom_range(-pellets_spread,pellets_spread));
 
 }

@@ -5,7 +5,7 @@
 with(obj_enemy_spawner)
 {
 	
-	var inst = instance_create_layer(x,y,"instances",obj_useless)
+	var inst = instance_create_layer(x,y,"instances",obj_enemy_parrent)
 	
 	
 	var buffer = buffer_create(12, buffer_fixed, 1);
@@ -18,15 +18,7 @@ with(obj_enemy_spawner)
 	
 
 	
-	clients = oController.clients
-	for (var i=0; i<ds_list_size(clients); i++) {
-		var soc = clients[| i];
-		
-		if (soc < 0) continue;
-		
-		network_send_packet(soc, buffer, buffer_get_size(buffer));
-		
-	}
+	client_send_buffer(buffer)
 	
 	buffer_delete(buffer);
 
