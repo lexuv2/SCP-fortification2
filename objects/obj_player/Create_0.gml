@@ -13,6 +13,7 @@ hp-=math_get_epsilon()
 hp = 10
 player_name = "JD";
 glowsticks = 5;
+flares = 5;
 is_player_initalized = 0;
 
 player_rot = 0;
@@ -32,9 +33,9 @@ alarm_set(0,90)
 
 instance_create_layer(0,0,"instances",obj_card_inventory)
 
+audio_listener_orientation(0,0,-1,0,1,0)
 
-ex_camera_create("main", 0, 0, 0, 1920, 1080, 0, 0, 0, 100, id, true, 0, 0, room_width, room_height);
-camera_target=id;
+obj_camera.target=id;
 whiten=false;
 hp_before=hp;
 alarm_set(1,60)

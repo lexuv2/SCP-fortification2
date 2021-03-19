@@ -1,6 +1,10 @@
 /// @description 
+
 open_two_windows();
 randomize();
+
+
+
 
 cursor_sprite = spr_cursor
 

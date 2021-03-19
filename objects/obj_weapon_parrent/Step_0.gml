@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if (instance_exists(obj_pause)) exit;
+
+audio_emitter_position(audio_emitter,x,y,0)
 if sequence {
 
     layer_sequence_x(sequence, in_hands.x);
@@ -51,6 +54,7 @@ if (in_hands) {
 	
 if in_hands.is_local
 {
+	
     if (image_angle < 180) layer_depth("layer_weapons" ,layer_get_depth("Instances_2")+1)
     else layer_depth("layer_weapons" ,layer_get_depth("Instances_2")-1)
 }

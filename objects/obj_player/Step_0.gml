@@ -50,10 +50,8 @@ if (!is_local) exit;//UAWGA PO TYM JEST TYLKO LOCAL========================
 
 player_rot=point_direction(x,y,mouse_x,mouse_y)
 
+audio_listener_position(x,y,0)
 
-if (instance_exists(camera_target)) {
-    ex_camera_scroll_to_object("main", camera_target, 6, scr_ease_inout_sine, true);
-}
 
 //light.x=x;
 //light.y=y;
